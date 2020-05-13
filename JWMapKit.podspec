@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JWMapKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   spec.summary      = "JWMapKit is trying to combine all the map SDK together"
 
   # This description is used to generate tags and improve search results.
@@ -80,9 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :path => '.' }
-  # spec.source     = { :git => "https://github.com/JustinInCoding/JWMapKit.git",
-  #                                :tag => "#{spec.version}" }
+  # spec.source       = { :path => '.' }
+  spec.source     = { :git => "https://github.com/JustinInCoding/JWMapKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
